@@ -205,3 +205,28 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ML Project specific
+artifacts/
+data/
+.dvc/
+! .dvc/config
+! .dvc/.gitignore
+! .dvc/plots
+! .dvc/scripts
+! .dvc/stages
+! .dvc/tmp
+*.csv
+*.tsv
+*.parquet
+*.h5
+*.pkl
+*.joblib
+*.pth
+*.weights
+*.onnx
+*.pb
+*.tflite
+
+# OS specific
+.DS_Store
