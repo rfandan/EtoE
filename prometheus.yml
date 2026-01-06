@@ -1,0 +1,7 @@
+global:
+  scrape_interval: 5s # How often to poke the API for metrics
+
+scrape_configs:
+  - job_name: 'wine-quality-api'
+    static_configs:
+      - targets: ['app:8080'] # 'app' is the service name in docker-compose

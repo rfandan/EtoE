@@ -1,0 +1,80 @@
+_wandb:
+    value:
+        cli_version: 0.23.1
+        e:
+            23bqkxcn78weds5irq6l5ox35tq74pqy:
+                codePath: src/mlProject/pipeline/stage_05_model_evaluation.py
+                codePathLocal: src/mlProject/pipeline/stage_05_model_evaluation.py
+                cpu_count: 2
+                cpu_count_logical: 4
+                disk:
+                    /:
+                        total: "121018208256"
+                        used: "95827976192"
+                email: rajveer.fandan@upm.es
+                executable: /Users/rajveer/Desktop/Projects/EtoE/.venv/bin/python3
+                git:
+                    commit: 332849cd08b28f0e9c6537d15b0306be8d6587dc
+                    remote: https://github.com/rfandan/EtoE.git
+                host: Rajveers-MacBook-Pro.local
+                memory:
+                    total: "8589934592"
+                os: macOS-13.7.8-x86_64-i386-64bit-Mach-O
+                program: /Users/rajveer/Desktop/Projects/EtoE/src/mlProject/pipeline/stage_05_model_evaluation.py
+                python: CPython 3.14.2
+                root: /Users/rajveer/Desktop/Projects/EtoE
+                startedAt: "2026-01-02T00:46:24.296993Z"
+                writerId: 23bqkxcn78weds5irq6l5ox35tq74pqy
+        m: []
+        python_version: 3.14.2
+        t:
+            "1":
+                - 5
+                - 53
+                - 105
+            "2":
+                - 5
+                - 53
+                - 105
+            "3":
+                - 2
+                - 13
+                - 16
+            "4": 3.14.2
+            "5": 0.23.1
+            "12": 0.23.1
+            "13": darwin-x86_64
+        visualize:
+            feature_importance:
+                panel_config:
+                    fieldSettings:
+                        label: feature
+                        value: coefficient
+                    panelDefId: wandb/bar/v0
+                    stringSettings:
+                        title: Feature Importance
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: feature_importance_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+alpha:
+    value: 0.01
+l1_ratio:
+    value: 0.1

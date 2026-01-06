@@ -1,0 +1,28 @@
+{
+  "os": "macOS-13.7.8-x86_64-i386-64bit-Mach-O",
+  "python": "CPython 3.14.2",
+  "startedAt": "2026-01-02T00:46:24.296993Z",
+  "program": "/Users/rajveer/Desktop/Projects/EtoE/src/mlProject/pipeline/stage_05_model_evaluation.py",
+  "codePath": "src/mlProject/pipeline/stage_05_model_evaluation.py",
+  "codePathLocal": "src/mlProject/pipeline/stage_05_model_evaluation.py",
+  "git": {
+    "remote": "https://github.com/rfandan/EtoE.git",
+    "commit": "332849cd08b28f0e9c6537d15b0306be8d6587dc"
+  },
+  "email": "rajveer.fandan@upm.es",
+  "root": "/Users/rajveer/Desktop/Projects/EtoE",
+  "host": "Rajveers-MacBook-Pro.local",
+  "executable": "/Users/rajveer/Desktop/Projects/EtoE/.venv/bin/python3",
+  "cpu_count": 2,
+  "cpu_count_logical": 4,
+  "disk": {
+    "/": {
+      "total": "121018208256",
+      "used": "95827976192"
+    }
+  },
+  "memory": {
+    "total": "8589934592"
+  },
+  "writerId": "23bqkxcn78weds5irq6l5ox35tq74pqy"
+}
