@@ -143,8 +143,17 @@ Once the services are running, you can explore these specialized views:
 3.  Under **Advanced Options**, check ✅ **"Enable simulated data drift"**.
 4.  Refresh the **Drift Report** to see "Alcohol" drift in real-time!
 
-### ☁️ Cloud Monitoring
-*   **Grafana Cloud**: Check your [Grafana Dashboard](https://grafana.com/) for `data_drift_score` and `http_requests_total`.
+### ☁️ External MLOps Hubs
+Aside from the local dashboards, the pipeline is integrated with these external platforms for advanced tracking:
+
+*   **Experiment Tracking (MLflow)**: Log into your [Dagshub Repository](https://dagshub.com/) to view the MLflow UI.
+    *   *Role*: Track hyperparameters, loss curves, and model versions.
+*   **Model Visualization (W&B)**: Visit your [W&B Project Dashboard](https://wandb.ai/).
+    *   *Role*: Deep performance analysis and feature importance visualization.
+*   **Production Telemetry (Grafana)**: Check your [Grafana Cloud Explore view](https://grafana.com/).
+    *   *Role*: Monitor live system health metrics like `data_drift_score`.
+
+> **💡 Security Note**: This project uses a `.env` file (which is git-ignored) to store your API keys. If someone clones this project, they will need to provide their **own** keys to see data on these dashboards. Your data and accounts remain private and will not be cluttered by other users' runs.
 
 ---
 
